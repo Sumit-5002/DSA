@@ -1,0 +1,18 @@
+[
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run Java Solution",
+        "when": "editorLangId == java"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run C++ Solution",
+        "when": "editorLangId == cpp"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.focusActiveEditorGroup"
+    }
+]

@@ -1,0 +1,40 @@
+{
+    "folders": [
+        {
+            "name": "🏠 DSA Root",
+            "path": "."
+        },
+        {
+            "name": "💻 LeetCode Problems",
+            "path": "LEETCODE RANDOM QUESTION"
+        },
+        {
+            "name": "🎯 Codeforces",
+            "path": "CODEFORCES"
+        },
+        {
+            "name": "📺 Striver DSA",
+            "path": "STIVER VIDEO CODE"
+        },
+        {
+            "name": "🚀 Unstop 100 Days",
+            "path": "UNSTOP 100 DAY CODE"
+        },
+        {
+            "name": "🎓 Teacher's Day Challenge",
+            "path": "Teacher's Day Challenge 2025"
+        }
+    ],
+    "settings": {
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "editor.formatOnSave": true,
+        "editor.fontSize": 14,
+        "editor.minimap.enabled": true,
+        "terminal.integrated.fontSize": 13,
+        "files.exclude": {
+            "**/*.class": true,
+            "**/*.exe": true
+        }
+    }
+}

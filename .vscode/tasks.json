@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Java Solution",
+            "type": "shell",
+            "command": "${workspaceFolder}/run_java.ps1",
+            "args": [
+                "-FilePath",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run C++ Solution",
+            "type": "shell",
+            "command": "${workspaceFolder}/run_cpp.ps1",
+            "args": [
+                "-FilePath",
+                "${file}"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile Java",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "${file}"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-O2",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "${file}"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
