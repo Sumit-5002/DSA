@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/STIVER VIDEO CODE/PATTERN PRINTING",
-      "program": "d:/DSA/STIVER VIDEO CODE/PATTERN PRINTING/build/Debug/outDebug",
+      "cwd": "d:/DSA",
+      "program": "d:/DSA/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
