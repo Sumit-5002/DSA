@@ -11,8 +11,7 @@ The primary goal of this repository is to showcase my **consistency** and **dedi
 My practice is organized into different folders based on the platform or the course I am following:
 
 *   **`STIVER VIDEO CODE/`**: Code written while following Striver's A2Z DSA Course / Video lectures.
-*   **`LEETCODE RANDOM QUESTION/`**: My daily or random practice problems solved on LeetCode.
-*   **`CODEFORCES/`**: Solutions to competitive programming problems on Codeforces.
+*   **`DrGViswanathan/`**: Digital portfolio containing Day-wise solved coding problems for recruiters.
 *   **`UNSTOP 100 DAY CODE/`**: Challenges completed as part of the Unstop 100 Days of Code challenge.
 *   **`Teacher's Day Challenge 2025/`**: Special event challenges.
 
